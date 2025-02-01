@@ -1,0 +1,14 @@
+{
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.root": "/",
+    "files.associations": {
+      "*.js": "javascript",
+      "*.css": "css"
+    },
+    "prettier.singleQuote": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    }
+  }

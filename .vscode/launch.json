@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Portfolio",
+        "url": "http://localhost:5500",
+        "webRoot": "${workspaceFolder}",
+        "preLaunchTask": "npm: start"
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Server",
+        "runtimeExecutable": "nodemon",
+        "program": "${workspaceFolder}/server.js",
+        "restart": true,
+        "console": "integratedTerminal"
+      }
+    ]
+  }
